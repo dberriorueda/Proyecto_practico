@@ -30,6 +30,10 @@ body {
     margin-bottom: 12px;
     text-align: center;
 }
+.form {
+    display: flex;
+    flex-direction: column;
+}
 .label {
     font-size: large;
     font-weight: bold;
@@ -39,4 +43,21 @@ body {
     border: none;
     height: 20px;
     padding: 6px;
+}
+.primary-button {
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    height: 50px;
+}
+.login-button {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+@media (max-width: 840px) {
+    .logo {
+        display: block;
+    }
+    
 }
