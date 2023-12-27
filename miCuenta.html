@@ -41,21 +41,15 @@ body {
     font-size: large;
     font-weight: bold;
 }
-.input {
-    background-color: beige;
-    border: none;
-    height: 20px;
-    padding: 6px;
+.value {
+    color: pink;
+    font-size: large;
+    margin: 8px 0 32px 0;
 }
-.input-nombre,
-.input-email,
-.input-password {
-    margin-bottom: 22px;
-}
-.primary-button {
-    background-color: blue;
+.secondary-button {
+    background-color: white;
     border-radius: 10px;
-    border: none;
+    border: 1px solid green;
     font-weight: bold;
     height: 50px;
 }
@@ -80,15 +74,15 @@ body {
 
             <form action="/" class="form">
                 <label for="name" class="label">Nombre</label>
-                <input type="text" id="nombre" placeholder="Diego" class="input input-nombre">
+                <p class="value">Diego Berrio</p>
 
                 <label for="email" class="label">Correo</label>
-                <input type="text" id="email" placeholder="dberriorueda@gmail.com" class="input input-email">
+                <p class="value">dberriorueda@gmail.com</p>
 
                 <label for="password" class="label">Contraseña</label>
-                <input type="password" id="password" placeholder="**********" class="input input-password">
+                <p class="value">**********</p>
 
-                <input type="submit" value="Crear" class="primary-button login-button">
+                <input type="submit" value="Editar" class="secondary-button login-button">
             </form>
         </div>
     </div>
