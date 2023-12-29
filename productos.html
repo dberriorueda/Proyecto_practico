@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .productos-contenedor {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 240px);
+        }
+        
+        .producto-imagen {
+            width: 50%;
+            height: 50%;
+        }
+        
+        .producto-imagen img {
+            width: 240px;
+            height: 240px;
+            border-radius: 20px;
+        }
+    </style>
 </head>
+
 <body>
     <section class="contenedor-principal">
         <div class="productos-contenedor">
             <div class="productos">
                 <img src="./imagenes/libro1.jpg" alt="" class="producto-imagen">
                 <div>
+                    <h3>El cuadrante del flujo de dinero</h3>
+                    <p>Autor: Robert t. Kiyosaki</p>
                     <p>$45.000</p>
-                    <p>****</p>
                 </div>
             </div>
             <div class="productos">
                 <img src="./imagenes/libro2.jpg" alt="" class="producto-imagen">
                 <div>
+                    <h3>Piense y hagase rico</h3>
+                    <p>Autor: Napoleon Hill</p>
                     <p>$42.000</p>
-                    <p>****</p>
                 </div>
             </div>
             <div class="productos">
                 <img src="./imagenes/libro3.jpg" alt="" class="producto-imagen">
                 <div>
+                    <h3>Controle su dinero y viva tranquilo</h3>
+                    <p>Autor: Diego Luis Luque Hurtado</p>
                     <p>$65.000</p>
-                    <p>****</p>
                 </div>
             </div>
             <div class="productos">
@@ -77,22 +99,23 @@
                     <p>$35.000</p>
                     <p>****</p>
                 </div>
-                <div class="productos">
-                    <img src="./imagenes/libro11.jpg" alt="" class="producto-imagen">
-                    <div>
-                        <p>$62.000</p>
-                        <p>****</p>
-                    </div>
-                    <div class="productos">
-                        <img src="./imagenes/libro12.png" alt="" class="producto-imagen">
-                        <div>
-                            <p>$58.000</p>
-                            <p>****</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="productos">
+                <img src="./imagenes/libro11.jpg" alt="" class="producto-imagen">
+                <div>
+                    <p>$62.000</p>
+                    <p>****</p>
+                </div>
+            </div>
+            <div class="productos">
+                <img src="./imagenes/libro12.png" alt="" class="producto-imagen">
+                <div>
+                    <p>$58.000</p>
+                    <p>****</p>
                 </div>
             </div>
         </div>
     </section>   
 </body>
+
 </html>
