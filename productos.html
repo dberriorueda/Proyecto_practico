@@ -9,17 +9,28 @@
         .productos-contenedor {
             display: grid;
             grid-template-columns: repeat(auto-fill, 240px);
+            gap: 20px;
         }
-        
+        .productos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .imagen-contenedor {
+            width: 100%;
+        }
         .producto-imagen {
-            width: 50%;
-            height: 50%;
-        }
-        
-        .producto-imagen img {
-            width: 240px;
-            height: 240px;
+            width: 100%;
+            height: auto;
             border-radius: 20px;
+        }
+        .principal p {
+            font-weight: bold;
+            color: blue;
+        }
+        .principal span {
+            color: red;
         }
     </style>
 </head>
@@ -27,37 +38,47 @@
 <body>
     <section class="contenedor-principal">
         <div class="productos-contenedor">
+            <!--Producto 1-->
             <div class="productos">
-                <img src="./imagenes/libro1.jpg" alt="" class="producto-imagen">
-                <div>
+                <div class="imagen-contenedor">
+                    <img src="./imagenes/libro1.jpg" alt="" class="producto-imagen">
+                </div>
+                <div class="principal">
                     <h3>El cuadrante del flujo de dinero</h3>
-                    <p>Autor: Robert t. Kiyosaki</p>
-                    <p>$45.000</p>
+                    <p>Autor: Robert T. Kiyosaki</p>
+                    <span>$45.000</span>
                 </div>
             </div>
+            <!--Producto 2-->
             <div class="productos">
-                <img src="./imagenes/libro2.jpg" alt="" class="producto-imagen">
-                <div>
-                    <h3>Piense y hagase rico</h3>
+                <div class="imagen-contenedor">
+                    <img src="./imagenes/libro2.jpg" alt="" class="producto-imagen">
+                </div>
+                <div class="principal">
+                    <h3>Piense y hágase rico</h3>
                     <p>Autor: Napoleon Hill</p>
-                    <p>$42.000</p>
+                    <span>$42.000</span>
                 </div>
             </div>
+            <!--Producto 3-->
             <div class="productos">
                 <img src="./imagenes/libro3.jpg" alt="" class="producto-imagen">
-                <div>
+                <div class="principal">
                     <h3>Controle su dinero y viva tranquilo</h3>
                     <p>Autor: Diego Luis Luque Hurtado</p>
-                    <p>$65.000</p>
+                    <span>$65.000</span>
                 </div>
             </div>
+            <!--Producto 4-->
             <div class="productos">
                 <img src="./imagenes/libro4.jpg" alt="" class="producto-imagen">
-                <div>
-                    <p>$56.000</p>
-                    <p>****</p>
+                <div class="principal">
+                    <h3>Toma el control de tu dinero</h3>
+                    <p>Karla Bayly</p>
+                    <span>$56.000</span>
                 </div>
             </div>
+            <!--Producto 5-->
             <div class="productos">
                 <img src="./imagenes/libro5.jpg" alt="" class="producto-imagen">
                 <div>
@@ -65,6 +86,7 @@
                     <p>****</p>
                 </div>
             </div>
+            <!--Producto 6-->
             <div class="productos">
                 <img src="./imagenes/libro6.jpg" alt="" class="producto-imagen">
                 <div>
@@ -72,6 +94,7 @@
                     <p>****</p>
                 </div>
             </div>
+            <!--Producto 7-->
             <div class="productos">
                 <img src="./imagenes/libro7.jpg" alt="" class="producto-imagen">
                 <div>
@@ -79,6 +102,7 @@
                     <p>****</p>
                 </div>
             </div>
+            <!--Producto 8-->
             <div class="productos">
                 <img src="./imagenes/libro8.png" alt="" class="producto-imagen">
                 <div>
@@ -86,6 +110,7 @@
                     <p>****</p>
                 </div>
             </div>
+            <!--Producto 9-->
             <div class="productos">
                 <img src="./imagenes/libro9.jpg" alt="" class="producto-imagen">
                 <div>
@@ -93,6 +118,7 @@
                     <p>****</p>
                 </div>
             </div>
+            <!--Producto 10-->
             <div class="productos">
                 <img src="./imagenes/libro10.jpg" alt="" class="producto-imagen">
                 <div>
@@ -100,6 +126,7 @@
                     <p>****</p>
                 </div>
             </div>
+            <!--Producto 11-->
             <div class="productos">
                 <img src="./imagenes/libro11.jpg" alt="" class="producto-imagen">
                 <div>
@@ -107,6 +134,7 @@
                     <p>****</p>
                 </div>
             </div>
+            <!--Producto 12-->
             <div class="productos">
                 <img src="./imagenes/libro12.png" alt="" class="producto-imagen">
                 <div>
@@ -114,8 +142,23 @@
                     <p>****</p>
                 </div>
             </div>
+            <!--Producto 13-->
+            <div class="productos">
+                <img src="./imagenes/libro13.jpg" alt="producto-imagen">
+                <div>
+                    <p>$42.000</p>
+                </div>
+            </div>
+            <!--Producto 14-->
+            <div class="productos">
+                <img src="./imagenes/libro14.jpeg" alt="producto-imagen">
+                <div>
+                    <p>$52.000</p>
+                </div>
+            </div>
         </div>
     </section>   
 </body>
 
 </html>
+
