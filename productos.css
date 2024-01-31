@@ -1,0 +1,31 @@
+.contenedor-principal {
+    background-color: aqua;
+}
+.titulo {
+    padding: 10px;
+    background-color: red;
+}
+.productos-contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+}
+.productos {
+    text-align: center;
+}
+.producto-imagen {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.detalles-producto {
+    padding: 10px;
+    font-size: x-large;
+}
+.principal p {
+    font-weight: bold;
+    color: red;
+    margin-bottom: 5px;
+}

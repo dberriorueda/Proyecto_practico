@@ -5,47 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Libreria</title>
-    <style>
-        .contenedor-principal {
-            background-color: aqua;
-        }
-        .titulo {
-            padding: 10px;
-            background-color: red;
-        }
-        .productos-contenedor {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-            gap: 20px;
-        }
-        .productos {
-            text-align: center;
-        }
-        .producto-imagen {
-            width: 240px;
-            height: 240px;
-            object-fit: cover;
-            border-radius: 20px;
-            border: 1px solid black;
-        }
-        .detalles-producto {
-            padding: 10px;
-            font-size: x-large;
-        }
-        .principal p {
-            font-weight: bold;
-            color: red;
-            margin-bottom: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="productos.css">
 </head>
 
 <body>
     <!--Contenedor Principal-->
-    <section class="contenedor-principal">
-        <div class="contenedorAuxiliar">
+    <header>
+         <div class="contenedorAuxiliar">
             <h1 class="titulo">Libreria el pensador</h1>
         </div>
+    </header>
+    <section class="contenedor-principal">
         <div class="productos-contenedor">
             <!--Producto 1-->
             <div class="productos">
@@ -135,6 +105,7 @@
             <div class="productos">
                 <img src="imagenes/libro8.png" alt="libro padre rico padre pobre" class="producto-imagen">
                 <div class="detalles-producto">
+                    <a href="./CarpetaDetalles/detalle_del_libro8.html">Detalle del libro</a>
                     <h3>Padre rico padre pobre</h3>
                     <p>Autor: Robert T. Kiyosaki</p>
                     <div class="principal">
@@ -146,6 +117,7 @@
             <div class="productos">
                 <img src="imagenes/libro9.jpg" alt="libro el invensor inteligente" class="producto-imagen">
                 <div class="detalles-producto">
+                    <a href="./CarpetaDetalles/detalle_del_libro9.html">Detalles del libro</a>
                     <h3>El invensor inteligente</h3>
                     <p>Autor: Benjamin Graham</p>
                     <div class="principal">
@@ -208,8 +180,11 @@
                     </div>
                 </div>
             </div>
+            <footer>
+                <a href="mailto:dberriorueda@gmail.com">Contactame aqui</a>
+            </footer>
 
-
+    
 </html>
 
 
