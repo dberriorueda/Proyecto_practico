@@ -1,8 +1,20 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: gray;
+    color: yellow;
+}
+#contenedorAuxiliar {
+    color: tomato;
+    text-align: center;
+}
 .contenedor-principal {
     background-color: aqua;
 }
 .titulo {
     padding: 10px;
+    border: solid 1px black;
     background-color: red;
 }
 .productos-contenedor {
